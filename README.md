@@ -36,7 +36,7 @@ docker compose run --rm build
 
 start the AWS Lambda Emulator as background process:
 ```sh
-docker compose up -d lambda my-handler
+docker compose up -d lambda
 ```
 
 invoke your function with a AWS Event:
